@@ -9,6 +9,22 @@ function setup() {
 	createCanvas(windowWidth, windowHeight);
 	x_pos = windowWidth/2 - size/2;
 	y_pos = windowHeight/2 - size;
+	//document.getElementByID("hello").innerHTML = "Text";
+	//hello.innerHTML = "My Text";
+	//hello.style("color", "#FF0000");
+
+	text = createP("This is an HTML string with style!");
+
+  text.position(50, 50);
+  text.style("font-family", "monospace");
+  text.style("background-color", "#FF0000");
+  text.style("color", "#FFFFFF");
+  text.style("font-size", "18pt");
+  text.style("padding", "10px");
+  //canvas.position(150, 150);
+	helloP = select("#hello")
+
+	helloP.style("color", "#FF0000")
 }
 
 function draw() {
