@@ -26,7 +26,7 @@ function setup() {
   // Starting Creatures
   for (var i = 0; i < 6; i++) {
     let col = creatureColors[i]
-    let newCreature = new Creature(random(200, 600), random(200, 600), random(20, 60), col);
+    let newCreature = new Creature(random(50, windowWidth), random(50, windowHeight), random(20, 60), col);
     creatures.push(newCreature)
 
   }
